@@ -7,7 +7,7 @@ This fork extends the open-source LG Power Android remote. Preserve the upstream
 - The original remote already works, including the D-pad, ENTER, Touchpad, app shortcuts, and VPN exclusion. Do not regress existing features.
 - YouTube, VK Video, network/VPN configuration, router changes, and TV firmware changes are out of scope until explicitly requested.
 - Work only on the feature branch, not `master`, until a reviewed PR is approved.
-- Follow `docs/RUTUBE_KEYBOARD_PLAN.md` and the corresponding GitHub issues. Implement **MVP / Phase A only** first; stop for hardware feedback before Phases B and C.
+- Follow `docs/RUTUBE_KEYBOARD_PLAN.md` and [MVP A Issue #2](https://github.com/KirIvanov/LGPower/issues/2). Later phases are [Issue #3](https://github.com/KirIvanov/LGPower/issues/3) and [Issue #4](https://github.com/KirIvanov/LGPower/issues/4). Implement **MVP / Phase A only** first; stop for hardware feedback before Phases B and C.
 
 ## Confirmed physical tests
 - Standard webOS text insertion works in the TV's web browser, but the built-in search keyboard in RUTUBE does not accept text from LG Power.
