@@ -1,10 +1,10 @@
 # Codex work queue — RUTUBE search on LG Power
 
-Status: **ready for Codex Phase A**. GitHub Issues are currently disabled in this fork; this file is the task backlog until they are enabled under Repository Settings → General → Features → Issues.
+Status: **ready for Codex Phase A**. GitHub Issues are **enabled**. This document mirrors the live GitHub task tracker. Start with [Issue #2 — MVP A](https://github.com/KirIvanov/LGPower/issues/2).
 
 All work must be performed on `feature/rutube-keyboard` (not `master`), with the constraints in [AGENTS.md](../AGENTS.md) and [RUTUBE_KEYBOARD_PLAN.md](RUTUBE_KEYBOARD_PLAN.md).
 
-## TASK-001 — MVP A: two-character `йц` keyboard probe [READY]
+## [TASK-001 — MVP A: two-character `йц` keyboard probe [READY]](https://github.com/KirIvanov/LGPower/issues/2)
 
 **Objective:** In already-open RUTUBE search with Russian virtual keyboard visible, and starting on `й`, automate three TV control commands: `ENTER`, `RIGHT`, `ENTER`.
 
@@ -22,7 +22,7 @@ All work must be performed on `feature/rutube-keyboard` (not `master`), with the
 
 **Acceptance:** a real user reports exactly `йц` appeared in RUTUBE, with original remote unaffected. A successful build is not enough.
 
-## TASK-002 — Phase B: phrase entry via RUTUBE keyboard [BLOCKED BY TASK-001]
+## [TASK-002 — Phase B: phrase entry via RUTUBE keyboard [BLOCKED BY TASK-001]](https://github.com/KirIvanov/LGPower/issues/3)
 
 - Collect phrase typed or dictated on Android.
 - Map RUTUBE virtual keyboard to an explicitly validated navigation graph, including unusual row transitions and special keys.
@@ -31,7 +31,7 @@ All work must be performed on `feature/rutube-keyboard` (not `master`), with the
 - No arbitrary screen taps relying on photographic pixel coordinates as the only solution. No automatic query clearing.
 - Add deterministic unit tests and repeatable human acceptance tests.
 
-## TASK-003 — Phase C: open search without reopening RUTUBE [BLOCKED BY INVESTIGATION]
+## [TASK-003 — Phase C: open search without reopening RUTUBE [BLOCKED BY INVESTIGATION]](https://github.com/KirIvanov/LGPower/issues/4)
 
 - Research official app-specific search deep link or supported command for the running RUTUBE webOS app.
 - If unavailable, derive/test safe sequence from a known UI state, with manual fallback.
